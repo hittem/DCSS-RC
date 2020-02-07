@@ -42,6 +42,7 @@ travel_avoid_terrain = deep water
 
 
 ## made by AliasTheSpectator
+{
 function enhanced_explore()
    if you.status():find("contam") or you.status("berserk cooldown") or you.status("short of breath") or you.status("corroded") or you.status("vulnerable") then
       crawl.do_commands({"CMD_REST"})
