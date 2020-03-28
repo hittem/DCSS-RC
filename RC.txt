@@ -491,6 +491,8 @@ Your divine shield fades away.
 Your prayer is over.
 # Mirror Damage (Yredelemnul)
 more += dark mirror aura disappears
+# Trog's Hand (Trog)
+more += You feel less resistant to hostile enchantments
 
 # Player Spells
 # Aura of Abjuration
