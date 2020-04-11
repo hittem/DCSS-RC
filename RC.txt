@@ -3954,7 +3954,7 @@ autopickup_exceptions += useless_item
 autopickup_exceptions += dangerous_item
 autopickup_exceptions += evil_item
 autopickup_exceptions += amulet of (inaccuracy|the gourmand)
-autopickup_exceptions += amulet of (clarity|rage||guardian spirit|faith)
+autopickup_exceptions += amulet of (clarity|rage|guardian spirit|faith)
 autopickup_exceptions += ring of (see invisible|flight|poison resistance)
 autopickup_exceptions += ring of (invisibility|teleportation|fire|ice)
 autopickup_exceptions += ring of (sustain abilities|wizardry|life protection)
@@ -3964,9 +3964,9 @@ autopickup_exceptions += potion of blood
 : end
 autopickup_exceptions += wand of random effects
 autopickup_exceptions += staff of .*
-autopickup_exceptions += <lamp of fire,<phial of floods,<fan of gales,<box of beasts,<lightning rod,<phantom mirror,<figurine of a ziggurat,<sack of spiders,>tremorstones
+autopickup_exceptions += <lamp of fire,<phial of floods,<fan of gales,<box of beasts,<lightning rod,<phantom mirror,<figurine of a ziggurat,<sack of spiders,>tin of tremorstones,
 autopickup_exceptions ^= <scroll.*immolation
-autopickup_exceptions += <dart,<boomerang,<stone,<javelin,<arrow,<bolt<,sling bullet
+autopickup_exceptions += <dart,<boomerang,<stone,<javelin,<arrow,<bolt,<sling bullet
 
 ####################################################################
 #                             Uskayaw                              #
