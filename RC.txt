@@ -648,23 +648,28 @@ more += evokes.*(amulet|ring)
 more += reads a scroll
 more += zaps a (wand|rod)
 
-# Terrible Monsters
-more += 's ghost.*(comes? into view|opens the)
-more += A player ghost.*(comes? into view|opens the)
-more += boggarts?.*(comes? into view|opens the)
+
+# Terrible Monsters - Tormentors
 more += curse skull.*comes? into view
 more += fiend.*(comes? into view|opens the)
 more += flayed ghost.*(comes? into view|opens the)
-more += giant eyeball.*comes? into view
+more += tormentor.*(comes? into view|opens the)
+
+# Terrible Monsters - Shadow Creatures
+more += boggarts?.*(comes? into view|opens the)
 more += giant orange brains?.*(comes? into view|opens the)
-more += giant spore.*comes? into view
-more += hellion.*(comes? into view|opens the)
 more += ironbrand convoker.*(comes? into view|opens the)
-more += Lich.*(comes? into view|opens the)
 more += orange crystal statue.*comes? into view
 more += shadow demons?.*(comes? into view|opens the)
+
+# Terrible Monsters - Otherwise Strong
+more += 's ghost.*(comes? into view|opens the)
+more += A player ghost.*(comes? into view|opens the)
+more += giant eyeball.*comes? into view
+more += giant spore.*comes? into view
+more += hellion.*(comes? into view|opens the)
+more += Lich.*(comes? into view|opens the)
 more += silver statue.*comes? into view
-more += tormentor.*(comes? into view|opens the)
 
 # Uniques
 more += 27-headed.*(comes? into view|opens the)
