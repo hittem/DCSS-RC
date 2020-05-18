@@ -671,6 +671,7 @@ more += hellion.*(comes? into view|opens the)
 more += Lich.*(comes? into view|opens the)
 more += silver statue.*comes? into view
 more += orb of fire.*comes? into view
+more += death cob.*comes? into view
 
 # Uniques
 more += 27-headed.*(comes? into view|opens the)
