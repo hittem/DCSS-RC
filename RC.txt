@@ -3963,10 +3963,10 @@ autopickup_exceptions += potion of lignification
 autopickup_exceptions += potion of blood
 : end
 autopickup_exceptions += wand of random effects
-autopickup_exceptions += staff of .*
-autopickup_exceptions += <lamp of fire,<phial of floods,<fan of gales,<box of beasts,<lightning rod,<phantom mirror,<figurine of a ziggurat,<sack of spiders,>tin of tremorstones,
+autopickup_exceptions ^= staff of .*
+autopickup_exceptions ^= <lamp of fire,<phial of floods,<fan of gales,<box of beasts,<lightning rod,<phantom mirror,<figurine of a ziggurat,<sack of spiders,<tin of tremorstones
 autopickup_exceptions ^= <scroll.*immolation
-autopickup_exceptions += <dart,<boomerang,<stone,<javelin,<arrow,<bolt,<sling bullet
+autopickup_exceptions ^= <dart,<boomerang,<stone,<javelin,<arrow,<bolt,<sling bullet
 
 ####################################################################
 #                             Uskayaw                              #
