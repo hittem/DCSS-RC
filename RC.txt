@@ -4098,7 +4098,7 @@ ai += staff of death:rN+
 ai += staff of energy:+MP, hungerless spells, !d!a
 ai += staff of fire:rF+
 ai += staff of poison:rPois
-ai += staff of power:MP+17, !a
+ai += staff of power:MP+15, !a
 ai += staff of summoning:!a
 ai += staff of wizardry:wiz+, !a
 
