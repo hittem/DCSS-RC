@@ -3868,7 +3868,6 @@ item_slot ^= stones?:Q
 item_slot ^= the ring.*rC\+:I
 item_slot ^= the ring.*rF\+:F
 item_slot ^= wand of digging:D
-item_slot ^= wand of disintegration:d
 
 ######################################################################
 #                             Spell Slots                            #
