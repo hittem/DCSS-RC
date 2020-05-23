@@ -20,6 +20,7 @@ autofight_fire_stop     = true
 
 
 explore_auto_rest = true
+interrupt_travel -= hungry
 autofight_stop = 80
 travel_avoid_terrain = deep water 
 
