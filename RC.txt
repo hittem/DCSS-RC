@@ -663,6 +663,7 @@ more += orange crystal statue.*comes? into view
 more += shadow demons?.*(comes? into view|opens the)
 
 # Terrible Monsters - Otherwise Strong
+more += quasit.*(comes? into view|opens the)
 more += 's ghost.*(comes? into view|opens the)
 more += A player ghost.*(comes? into view|opens the)
 more += giant eyeball.*comes? into view
@@ -890,8 +891,8 @@ menu += $positive:[^r]staff of
 
 # Wands
 menu += $boring:wand of frost|magic darts|random effects)
-menu += $decent:wand of (flame|confusion|enslavement|paralysis|polymorph|slowing)
-menu += $good:wand of (cold|digging|disintegration|draining)
+menu += $decent:wand of (flame|polymorph)
+menu += $good:wand of (cold|digging|disintegration|draining|confusion|enslavement|paralysis|slowing)
 menu += $good:wand of (fire|fireball|invisibility|lightning)
 menu += $positive:wand of hasting
 menu += $verypositive:wand of heal wounds
