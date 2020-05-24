@@ -42,7 +42,7 @@ travel_avoid_terrain = deep water
 ###
 
 
-## made by AliasTheSpectator
+## made by AliasTheSpectator (mostly)
 {
 function enhanced_explore()
    if you.status():find("contam") or you.status("berserk cooldown") or you.status("short of breath") or you.status("corroded") or you.status("vulnerable") then
@@ -50,12 +50,20 @@ function enhanced_explore()
    elseif you.status("slowed") then
       if not (you.strength() <=0 or you.intelligence() <= 0 or you.dexterity() <=0) then
          crawl.do_commands({"CMD_REST"})
-      else
-         crawl.do_commands({"CMD_EXPLORE"})
       end
    else
-      crawl.do_commands({"CMD_EXPLORE"})
+      explore_helper()
    end
+end
+
+function explore_helper()
+	local action = ""
+    local swap = swap_for_autoexplore()
+    if swap then 
+		action = "w" .. swap 
+	end
+	crawl.sendkeys(action)
+	crawl.do_commands({"CMD_EXPLORE"})
 end
 }
 
@@ -4233,6 +4241,20 @@ function custom_channel()
   else
     crawl.sendkeys('0' .. '1' .. '0' .. '0' .. 'v')
   end
+end
+
+function swap_for_autoexplore()
+    local w = items.equipped_at("Weapon")
+    if w and string.find(w.inscription, "autoexplore") then
+        return nil
+    else
+        for i, j in ipairs(items.inventory()) do
+			if string.find(j.inscription, "autoexplore") then
+				return items.index_to_letter(j.slot)
+			end
+        end
+        return nil
+    end
 end
 
 function ready()
