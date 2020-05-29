@@ -49,7 +49,9 @@ function enhanced_explore()
       crawl.do_commands({"CMD_REST"})
    elseif you.status("slowed") then
       if not (you.strength() <=0 or you.intelligence() <= 0 or you.dexterity() <=0) then
-         crawl.do_commands({"CMD_REST"})
+        crawl.do_commands({"CMD_REST"})
+      else
+	    explore_helper()
       end
    else
       explore_helper()
