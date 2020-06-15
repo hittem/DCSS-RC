@@ -3793,6 +3793,8 @@ note_monsters += orb of fire
 #                        Force More Messages and the likes           #
 ######################################################################
 
+force_more_message += is no longer waterlogged
+
 # TODO I'm pretty sure this whole section is no longer necessary with
 # clear_messages=true and safe movements as default...
 force_more_message += A sentinel's mark forms upon you
