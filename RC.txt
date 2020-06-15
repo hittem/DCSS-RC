@@ -1,3 +1,4 @@
+# TEAMCAPTAIN mintice
 
 ## my own stuff
 #size
@@ -3671,7 +3672,7 @@ equip_unequip           = true
 explore_auto_rest       = true
 
 # How long auto-explore waits after each move (milliseconds)
-explore_delay           = 10        
+explore_delay           = -1        
 
 hp_colour               = 100:green, 99:lightgrey, 75:yellow, 50:lightred, 25:red
 
