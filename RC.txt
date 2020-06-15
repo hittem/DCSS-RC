@@ -3803,6 +3803,7 @@ force_more_message += caustic.* comes? into view
 force_more_message += curse toe.*comes? into view
 force_more_message += dream sheep.*comes? into view
 force_more_message += entropy weaver.*comes? into view
+force_more_message += swamp worm.*comes? into view
 force_more_message += hits you.*distortion
 force_more_message += is wielding.*of
 force_more_message += zaps a wand
