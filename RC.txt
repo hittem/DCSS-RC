@@ -3829,7 +3829,7 @@ more += Gained mutation
 more += is wielding a .* of distortion  
 
 # And flashes the screen
-#flash_screen_message += distortion     
+flash_screen_message += distortion     
 flash_screen_message += sacrifice    
 flash_screen_message += vehumet offers   
 
