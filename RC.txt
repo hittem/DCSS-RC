@@ -3714,7 +3714,8 @@ travel_delay            = -1
 user_note_prefix        = --        
 
 # Controls the speed of animations
-view_delay              = 100       
+view_delay              = 100     
+use_animations -= beam  
 
 # Adjusts how much autoexplore favours attempting to discover room perimeters and corners.
 # At values higher than 0, autoexplore will more heavily favour visiting squares that are next to walls
