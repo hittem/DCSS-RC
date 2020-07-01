@@ -1,5 +1,3 @@
-# TEAMCAPTAIN mintice
-
 ## my own stuff
 #size
 tile_cell_pixels = 48
