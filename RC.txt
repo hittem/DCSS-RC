@@ -336,6 +336,7 @@ more += infuriates you
 more += lose consciousness
 more += mark forms upon you
 more += MASSIVE DAMAGE
+more += GAME OVER YEAH
 more += Ouch! That really hurt!
 more += silver sears you
 more += Space bends around you
