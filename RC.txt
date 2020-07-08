@@ -146,7 +146,7 @@ end
             crawl.mpr("<red>You take " .. hp_difference .. " damage,</red><green> and have " .. current_hp .. "/" .. max_hp .. " hp.</green>")
           end
           if hp_difference > (max_hp * 0.20) then
-            crawl.mpr("<lightred>MASSIVE DAMAGE!!</lightred>")
+            crawl.mpr("<lightred>GAME OVER YEAH!!</lightred>")
           end
         end
 
