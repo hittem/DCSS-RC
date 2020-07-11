@@ -4276,12 +4276,7 @@ function ready()
 
     pre_channel_slot        = nil
     channel_switched_weapon = false
-  end
-  
-  if you.status("starving") or you.status("fainting") then
-    crawl.do_commands({"CMD_EAT"})
-  end
-	
+  end	
 end
   
 }
