@@ -4062,17 +4062,9 @@ ai += troll leather armour of cold resistance:, rC+
 ai += troll leather armour of fire resistance:, rF+
 
 # Accessory Egos
-ai += (barding|boots|buckler|cloak|gloves|hat|helmet|shield) of cold resistance:rC+
-ai += (barding|boots|buckler|cloak|gloves|hat|helmet|shield) of fire resistance:rF+
 ai += (barding|boots) of flight:+Fly
-ai += (buckler|cloak|shield) of poison resistance:rPois
-ai += (buckler|shield) of positive energy:rN+
 ai += (buckler|shield) of protection:AC+3
 ai += (buckler|shield) of resistance:rC+, rF+
-ai += (hat|helmet) of see invisible:sInv
-ai += gloves of strength:Str+3
-ai += gloves of dexterity:Dex+3
-ai += gloves of archery:Ranged Slay+4
 ai += hat of spirit shield:Spirit
 
 # Amulets
