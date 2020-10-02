@@ -1,7 +1,4 @@
 ## my own stuff
-
-tile_show_player_species = true
-
 #size
 tile_cell_pixels = 48
 tile_font_crt_size = 20
