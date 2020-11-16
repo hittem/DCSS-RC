@@ -457,7 +457,7 @@ more += Your guardian golem overheats
 more += your magic stops regenerating
 more += Your scales start
 more += your.*devoured
-more += Your?.*can no longer
+#more += Your?.*can no longer
 more += Green shoots are pushing up through the earth
 
 # Things getting better
@@ -4002,6 +4002,7 @@ autopickup_exceptions ^= <dart,<boomerang,<stone,<javelin,<arrow,<bolt,<sling bu
 : if you.god() ~= "Uskayaw" then
 msc += $danger:You can no longer
 more += You can now
+more += You can no longer
 msc ^= $awesome:You can now
 : end
 
