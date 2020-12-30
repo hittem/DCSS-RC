@@ -48,7 +48,7 @@ travel_avoid_terrain = deep water
 ## made by AliasTheSpectator (mostly)
 {
 function enhanced_explore()
-   if you.status():find("contam") or you.status("berserk cooldown") or you.status("short of breath") or you.status("corroded") or you.status("vulnerable") or you.status("can't hop") then
+   if you.status():find("contam") or you.status("berserk cooldown") or you.status("short of breath") or you.status("corroded") or you.status("vulnerable") or you.status("can't hop") or you.status("exhausted") then
       crawl.do_commands({"CMD_REST"})
    elseif you.status("slowed") then
       if not (you.strength() <=0 or you.intelligence() <= 0 or you.dexterity() <=0) then
