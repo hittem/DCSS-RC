@@ -772,6 +772,7 @@ more += Wiglaf.*(comes? into view|opens the)
 more += Xtahua.*(comes? into view|opens the)
 
 more += expires
+more += unholy channel is weakening
 
 ##############################
 # message and item colors    #
@@ -1001,6 +1002,7 @@ msc += $danger:seems less drained
 msc += $danger:preventing you from leaping
 msc += $danger:shrugs off the wave
 msc += $danger:Your unholy channel expires
+msc += $danger:Your unholy channel is weakening
 msc += $danger:Being near the torpor snail leaves you feeling lethargic
 msc += $danger:The amulet engulfs you in a massive magical discharge
 msc ^= $danger:Your.*appears confused
