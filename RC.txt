@@ -4062,21 +4062,11 @@ ai += swamp dragon (armour|hide):rPois
 ai += troll (hide|leather armour):regen
 
 # Body Armour Egos
-ai += ([^l] leather armour|mail|plate armour|robe|skin) of cold resistance:rC+
-ai += ([^l] leather armour|mail|plate armour|robe|skin) of fire resistance:rF+
-ai += (leather armour|mail|plate armour|robe) of magic resistance:MR+
-ai += (leather armour|mail|plate armour|robe) of positive energy:rN+
-ai += (leather armour|mail|plate armour) of poison resistance:rPois
-ai += plate armour of ponderousness:Speed-
-ai += robe of resistance:rC+, rF+
 ai += robe of the archmagi:Spellpower+
-ai += troll leather armour of cold resistance:, rC+
-ai += troll leather armour of fire resistance:, rF+
 
 # Accessory Egos
 ai += (barding|boots) of flight:+Fly
 ai += (buckler|shield) of protection:AC+3
-ai += (buckler|shield) of resistance:rC+, rF+
 ai += hat of spirit shield:Spirit
 
 # Amulets
