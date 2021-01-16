@@ -1,3 +1,5 @@
+#TEAMCAPTAIN Mintice
+
 ## my own stuff
 
 tile_show_player_species = true
@@ -948,10 +950,10 @@ $mp := lightcyan
 #channel.plain = 
 channel.prompt = $interface
 channel.god = $godaction
-channel.pray = $godaction
+#channel.pray = $godaction
 channel.duration = $warning
 channel.danger = $danger
-channel.food = $warning
+#channel.food = $warning
 channel.warning = $danger
 channel.recovery = $verypositive
 channel.talk = $warning
@@ -968,7 +970,7 @@ channel.friend_action = $takesaction
 channel.monster_damage = mute
 #monster_target = --currently unused by the game
 #channel.banishment = --either positive or danger
-channel.rotten_meat = $boring
+#channel.rotten_meat = $boring
 channel.equipment = $interface
 #channel.floor = 
 channel.multiturn = $boring
@@ -3827,6 +3829,9 @@ more += Vehumet offers you knowledge
 
 # A moth of wrath comes into view
 more += moth of wrath.*comes? into view 
+
+# A moth of wrath comes into view
+more += shining eye.*comes? into view 
 
 # Gained mutation
 more += Gained mutation
