@@ -3878,7 +3878,6 @@ message_colour ^= mute:The jelly splits in two!
 #                             Item Slots                             #
 ######################################################################
 
-item_slot ^= amulet of guardian spirit:G
 item_slot ^= arrows?:Q
 item_slot ^= bolts?:Q
 item_slot ^= ring of poison resistance:P
@@ -3891,12 +3890,12 @@ item_slot ^= ring of see invisible:S
 item_slot ^= ring of wizardry:W
 item_slot ^= scrolls? of identify:i
 item_slot ^= scrolls? of teleportation:t
+item_slot ^= scrolls? of magic mapping:r
 item_slot ^= stones?:Q
 item_slot ^= the ring.*rC\+:I
 item_slot ^= the ring.*rF\+:F
 item_slot ^= wand of digging:D
 item_slot ^= wand of flame:f
-item_slot ^= rations?:e
 
 ######################################################################
 #                             Spell Slots                            #
