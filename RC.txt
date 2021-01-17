@@ -3735,7 +3735,7 @@ trapwalk_safe_hp = dart:15,needle:25,arrow:25,bolt:30,spear:20,axe:40,blade:50
 
 # Fire order
 fire_order              = launcher, return
-fire_order              += rock, javelin, boomerang, stone, net
+fire_order              += rock, javelin, boomerang, dart, stone, net
 fire_order              += inscribed
 
 # My personal keybindings.
