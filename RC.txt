@@ -1,5 +1,3 @@
-#TEAMCAPTAIN Mintice
-
 ## my own stuff
 
 tile_show_player_species = true
@@ -21,7 +19,7 @@ easy_confirm = none
 
 bindkey = [^I] CMD_AUTOFIGHT_NOMOVE
 # Throw missiles with 'f.' when using tab
-autofight_fire_stop     = true   
+autofight_fire     = true   
 
 
 explore_auto_rest = true
